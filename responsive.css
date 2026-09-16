@@ -1,0 +1,197 @@
+@media (max-width: 768px) {
+    nav.active {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+        background: #F8FAFC;
+        border-bottom: 1px solid #E2E8F0;
+    }
+}
+
+@media (max-width: 900px) {
+
+    nav {
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding-top: 130px;
+        padding-bottom: 70px;
+    }
+
+    .hero-content {
+        max-width: 700px;
+    }
+
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        width: 100%;
+
+        min-height: 400px;
+    }
+
+    .problem-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .steps {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about,
+    .security {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .about-content,
+    .security-content {
+        max-width: 700px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 15px 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header .btn {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    section {
+        width: 90%;
+    }
+
+    .problem,
+    .about,
+    .how-works,
+    .features,
+    .security,
+    .faq {
+        padding: 80px 0;
+    }
+
+    .hero {
+        padding-top: 120px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        width: 100%;
+
+        text-align: center;
+
+        box-sizing: border-box;
+    }
+
+    .hero-card {
+        padding: 20px;
+    }
+
+    .card-header {
+        gap: 10px;
+    }
+
+    .status {
+        font-size: 10px;
+    }
+
+    .problem-content,
+    .steps,
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+    .section-heading h2,
+    .about h2,
+    .security h2,
+    .cta h2 {
+        font-size: 34px;
+    }
+
+    .about-card {
+        padding: 35px 20px;
+    }
+
+    .about-card strong {
+        font-size: 18px;
+    }
+
+    .cta {
+        padding: 60px 20px;
+
+        border-radius: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+
+        gap: 15px;
+
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+
+        gap: 18px;
+    }
+
+}
